@@ -1,0 +1,21 @@
+p{
+  font-size:45px;
+}
+.size {
+  font-size:18px;
+}
+.Headings{
+  font-size: 25px;
+}
+body {
+  background-color: orange;
+}
+
+#mirror {
+  height: 200px;
+  width:  125px;
+}
+#puppy {
+  height: 200px;
+  width: 125px;
+}

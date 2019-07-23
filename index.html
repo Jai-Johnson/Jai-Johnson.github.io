@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="WebsiteStyles.css">
+      <script src="JavaScript.js"></script>
+    </head>
+    <body>
+      <p>Random Stories</p>
+
+      
+
+      <p class="Headings">Horror Stories</p>
+      <p class="size"><a href="https://thoughtcatalog.com/christine-stockton/2014/01/13-short-creepy-stories-that-will-scare-the-crap-out-of-you/">Scary Stories<a/></p>
+      <p class="size"><a href="https://didyouknowfacts.com/20-creepy-true-stories-thatll-make-want-check-closets-dare/">Creepy Stories</a></p>
+      <p class="size">Click to see something horrifying!</p>
+      <button onclick="mirrorImage()">Click Me!!</button>
+
+      <div id ="mirrorImage">
+        <img src="https://www.freepngimg.com/thumb/mirror/8-2-mirror-png-file.png" id="mirror">
+      </div>
+
+      <script>
+      function mirrorImage() {
+        var x = document.getElementById("mirrorImage");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+
+
+      <div><p class="Headings">Happy Stories</p></div>
+      <p class="size"><a href="https://www.sunnyskyz.com/feel-good-stories">Inspirational Stories</a></p>
+      <p class="size">Click here to see something adorable!</p>
+      <button onclick="puppyImage()">Click Me!!</button>
+
+      <div id ="puppyImage">
+        <img src="https://pics.me.me/two-little-cute-puppies-35048544.png" id class="puppy">
+      </div>
+
+      <script>
+      function puppyImage() {
+        var x = document.getElementById("puppyImage");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+      <p class="Headings">Sad Stories</p>
+        <p class="size"><a href="https://thoughtcatalog.com/january-nelson/2018/07/sad-stories/">Tragic Love Stories</a></p>
+
+      <p class="Headings">Love Stories</p>
+      <p class="size"><a href= "http://www.scaryforkids.com/love-stories/">Lovely Stories</a></p>
+
+
+      <p class="Headings">In-your-feelings Stories</p>
+      <p class="size"><a href="https://www.storyberries.com/category/feelings-and-emotions/">Emotional Stories</a></p>
+
+      <p class="Headings">Youtube Story Telling</p>
+      <p class="size"><a href="https://www.youtube.com/channel/UCw-WWK1U5Nlds-ydZNCrkcg">Horror Story Videos<a/></p>
+      <p class="size"><a href="https://www.youtube.com/watch?v=v1BiYp47v5M">Video That Will Make You Happy</a></p>
+
+
+    </body>
+
+</html>
